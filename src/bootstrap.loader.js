@@ -9,11 +9,11 @@ if (semver.lt(process.version, '4.0.0') && !global._babelPolyfill) {
     require('babel-polyfill');
   } catch (e) {
     try {
-      // eslint-disable-next-line global-require
+      // eslint-disable-next-line global-require,import/extensions
       require('babel-core/polyfill');
     } catch (ee) {
       try {
-        // eslint-disable-next-line global-require
+        // eslint-disable-next-line global-require,import/extensions
         require('babel/polyfill');
       } catch (eee) {
         throw new Error(`
