@@ -37,12 +37,12 @@
   ],
   "peerDependencies": {
     "css-loader": "3.6.0",
-    "mini-css-extract-plugin": ">=0.4.0",
+    "mini-css-extract-plugin": "^0.4.0",
     "sass": "*",
     "resolve-url-loader": "*",
-    "sass-loader": ">=7.3.1",
+    "sass-loader": "^7.3.1",
     "url-loader": "1.0.1",
-    "webpack": ">=4.0.0"
+    "webpack": "^4.46.0"
   },
   "dependencies": {
     "chalk": "2.4.2",
@@ -70,6 +70,6 @@
     "prettier": "1.12.1",
     "tap-spec": "^5.0.0",
     "tape": "4.9.0",
-    "webpack": "4.8.1"
+    "webpack": "4.46.0"
   }
 }
