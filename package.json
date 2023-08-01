@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-loader",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "Boostrap for Webpack",
   "main": "loader.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "lint": "eslint --ext .js .",
     "clean": "rm -rf lib",
     "format": "prettier \"{examples,node_package,src}/**/*.@(js|jsx|json|css|scss)\" --write",
-    "prerelease": "npm run lint && npm run clean && npm run build",
+    "prerelease": "npm run lint && npm run test && npm run clean && npm run build",
     "preversion": "npm run prerelease",
     "prepublish": "npm run prerelease",
     "release:patch": "scripts/release patch",
